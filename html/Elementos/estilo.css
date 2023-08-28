@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    background-color: aqua;
+}
+h1 {
+    font-size: 10px;
+}
+footer {
+    background-color: #ccc;
+}
+a {
+    text-decoration: none;
+}
