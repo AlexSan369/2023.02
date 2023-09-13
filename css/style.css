@@ -1,0 +1,56 @@
+h3 {
+    /*altura*/
+    height: 50px;
+    /*largura*/
+    width: 100%;
+    /*Cor do texto*/
+    color: #f3f3f3;
+    /*plano de fundo*/
+    background-color: orangered;
+    /*Alinhamento do texto*/
+    text-align: center;    
+}
+
+a {
+    /*Tirar a linha(underline_)*/
+    text-decoration: none;
+    /*Tamanho da fonte*/
+    font-size: 20px;
+    color: red;
+}
+
+ul li a{
+    /*Cria sombra no texto*/
+    text-shadow: 0px 0px 1px rgb(222, 130, 135),
+                 1px 1px rgb(222, 130, 135),
+                .5px .5px rgb(152, 86, 90),
+                 2px 3px rgb(223, 135, 135),
+                 2.5px 3.5px rgb(222, 130, 135),
+                 3px 4px rgb(176, 84, 89),
+                 3.5px 4.5px rgb(222, 130, 135),
+                 4px 5px rgb(195, 96, 100),
+                 4.5px 5.5px rgb(222, 130, 135);
+}
+
+p#escolhido {
+    background-color: purple;
+    /*Bordas*/
+    border: 3px solid white;
+    text-align: center;
+    /*Espaçamento entre letras*/
+    letter-spacing: 2px;
+    /*Estilo do texto*/
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 22px;
+    /*Espessura da letra*/
+    font-weight: bold;
+    /*Tipo da fonte*/
+    font-family: sans-serif;
+    color: aqua;
+}

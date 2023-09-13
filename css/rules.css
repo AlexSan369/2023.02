@@ -1,0 +1,94 @@
+/* Seletor universal todas as 
+regras desse escopo são aplicadas a todos os elementos */
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #424141;
+}
+
+header {
+    background-color: #424141;
+    width: 80%; /* Largura */
+    height: 20vh; /* Altura */
+    margin-left: 10%; /* Margem à esquerda */
+    margin-top: 9px; /* Margem no topo */
+
+    /* ValorEspessura, tipoTraço, CorLinha */
+    border: 2px solid rgb(0, 255, 0);
+
+    /* Alinhamento(Interno) do conteiner */
+    display: flex;
+    justify-content: center; /* Alinhamento Horizontal */
+    align-items: center; /* Alinhamento Vertical */
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;    
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section.usar h2 {
+    background-color: #626161;
+    margin-bottom: 15px;
+    text-shadow: 3px 1px rgb(66, 66, 66),
+                 3px 1px 15px #fff;
+}
+section.usar p {
+    color: rgb(0, 255, 0);
+    letter-spacing: 0.1rem;
+}
+section.usar img {
+    margin-top: 15px;
+    border: 5px dashed #fff;
+}
+section.font {
+    color: #fff;
+    font-weight: 300;
+    border-top: 18px solid #626161;
+    line-height: 28px;
+}
+
+section.font img {
+    margin-top: 15px;
+    border: 15px double #fff;
+}
+
+section.font p {
+    text-align: justify;
+}
+
+span {
+    font-family: monospace;
+    background-color: #888;
+    color: red;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+li {
+    text-align: left;
+}
+section.text {
+    background-color: brown;
+}
+
+section.color {
+    background-color: pink;
+}
+
