@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Galeria</h1>
+    </header>
+    <main> 
+        <p>
+            <figure>
+                <img src="img.png" alt="">
+                <figcaption>Olá pessoal eu sou Alex!</figcaption>
+            </figure>
+    </p>
+            
+        <p><img src="img2.JPG" alt=""></p>
+        <p><img src="img3.jpg" alt=""></p>
+        <p><img src="img4.jpeg" alt=""></p>
+        <p><img src="img5.jpg" alt=""></p>
+        <p><img src="img6 .png" alt=""></p>
+        <p><img src="img7.png" alt=""></p>
+        <p><img src="img8.png" alt=""></p>
+        <p><img src="img9.jpeg" alt=""></p>
+        <p><img src="img10.jpg" alt=""></p>
+    </main>
+    <footer>
+        Todos os direitos reservados &copy; 2023
+    </footer>
+
+    <script>
+        const clique = document.querySelector("#essa");
+        clique.addEventListener("click", ()=> {
+            const esconde = document.querySelector(".sumir");
+            if (!esconde.classList.contains("hide")) {
+                esconde.classList.add("hide");
+            }
+            else {
+                esconde.classList.add("show");
+                esconde.classList.remove("hide");
+            } 
+
+        });
+    </script>
+</body>
+</html>
