@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%; /* Largura */
+}
+
+header {
+    width: 80%;
+    height: 10vh; /* Altura */
+    border: 2px solid rgb(0, 255, 0);
+    margin-left: 10%;
+    margin-top: 32px;
+    margin-bottom: 16px;
+    box-shadow: 1px 1px 20px rgb(3, 73, 3);
+
+
+    /* Posição dos elementos 
+       de acordo com a caixa */
+    display: flex; /* Comportamento da caixa */
+    justify-content: center; /* Alinhamento Horizontal */
+    align-items: center; /* Alinhamento Vertical */
+
+}
+
+nav {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgb(0, 255, 0);
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #111;
+}
+
+section {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 8px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background-color: #111;
+    color: #fff;
+    padding-top: 10px;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 3px 1px #7b7a7a;
+}
+section p {
+    margin-left: 8px;
+    margin-top: 16px;
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+section img {
+    border: 8px double #333;
+    margin-top: 32px;
+}
+
+section.font {
+    background-color: #f2f2f2;
+}
+
+span {
+    font-size: 1rem;
+    font-family: monospace;
+    color: crimson;
+    background-color: rgba(222, 222, 222, 0.3);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+span.exemplo {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+}
+span.exemplo span {
+    color: rgb(65, 65, 160);
+    
+}
+
+li {
+    list-style: none;
+    font-weight: 600;
+}
