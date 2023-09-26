@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(-30deg, rgb(195, 3, 183), rgb(248, 189, 238));
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+div {
+    width: 160px;
+    height: 160px;
+    border: 2px solid;
+    border-radius: 5px;
+    
+    background-image: linear-gradient(-30deg, #ccc, #ffffffde);
+}
+
+.content-box {
+    box-sizing: border-box;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+}
+
+.border-box {
+    background-image: linear-gradient(to bottom right, rgb(128, 192, 248), white);
+    box-sizing: border-box;
+    padding: 4rem;
+}
+
+.box {
+    border-top: 50px solid red;
+    border-left: 10px solid green;
+    border-right: 15px solid yellow;
+    border-bottom: 10px solid black;
+
+    box-sizing: border-box;
+}
