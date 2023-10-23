@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amo ser pobre</title>
+</head>
+<body>
+    <script>
+        // Declaração das variáveis
+        let cliente, produto, valor, parcelas;
+        let valorTotal;
+        const juros = 0.1;
+        
+        // Recebendo valores do usuário
+        cliente = prompt('Informe seu nome');
+        produto = prompt('Qual produto comprou?');
+        valor = +prompt('Quanto custou?');
+        parcelas = +prompt('Quantas parcelas?');
+        
+        // Apresentando os dados no display
+        document.write(`Olá ${cliente}, sinta-se em casa! <br>`);
+        document.write(`você comprou um(a) ${produto} <br>`);
+        document.write(`Parcelado em ${parcelas}x <br><br>`);
+
+        valorTotal= valor + (valor * juros)
+        document.write(`Total: ${valorTotal} *Acrescido de 10%*  <br>`);
+        document.write(`Cada parcela saí R$${valorTotal/parcelas} <br>`);
+        
+
+
+
+    </script>
+</body>
+</html>
