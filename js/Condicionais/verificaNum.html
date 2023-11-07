@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verifica Números</title>
+</head>
+<body>
+    
+    <script>
+        let num = +prompt('Digite um número');
+        
+        do {
+            alert(`O número digitado está vazio`)
+            num = prompt('Digite um número');
+
+            }while(!num == undefined)
+        
+            if (num > 0) 
+            {
+                alert(`O número digitado(${num}), esse é positivo!`)
+            } 
+            else
+            {
+                alert(`O número digitado(${num}), esse é negativo!`)
+            } 
+    </script>
+</body>
+</html>
